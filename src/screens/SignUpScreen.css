@@ -1,0 +1,67 @@
+.signupScreen{
+    font-family: Poppins,sans-serif;
+    max-width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,0.85);
+}
+.signupScreen>form{
+    display: grid;
+    max-width: 300px;
+    flex-direction: column;
+
+}
+.signupScreen>form>h4{
+    text-align: left;
+    max-width: 300px;
+    margin-top: 30px;
+}
+.signupScreen__gray{
+    color: gray;
+    max-width: 300px;
+    font-family: Poppins , sans-serif;
+}
+.information{
+    font-size: 10px;
+    max-width: 300px;
+}
+.signupScreen > form > h1{
+    text-align: left;
+    margin-top: 25px;
+    max-width: 300px;
+    margin-bottom: 8px;
+}
+.signupScreen > form > input{
+ outline-width: 0;
+ height: 30px;
+ font-family: Poppins, sans-serif;
+ margin-bottom: 12px;
+ border-radius: 2px;
+ max-width: 300px;
+ border: none;
+ padding: 5px 15px;
+}
+.signupScreen > form > button{
+    padding:8px 12px;
+    font-family: Poppins , sans-serif;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    margin-top: 10px;
+    max-width: 300px;
+    border: none;
+}
+.signupscreen__link{
+  cursor: pointer;
+  padding: 8px 12px;
+  font-family: Poppins , sans-serif;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+  max-width: 300px;
+  background-color: #e50914;
+  cursor: pointer;
+  width: 100%;
+}
